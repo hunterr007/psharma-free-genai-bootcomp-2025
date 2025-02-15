@@ -1,4 +1,4 @@
-# Free-GenAi-Bootcamp-2025
+# Free-GenAI-Bootcamp-2025
 
 This repo is for hands-on exercixes and homework in Generative AI Bootcamp by Andrew Brown in Feb 2025.
 https://genai.cloudprojectbootcamp.com/
