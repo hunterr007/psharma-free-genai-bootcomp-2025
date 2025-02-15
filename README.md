@@ -7,7 +7,7 @@ https://genai.cloudprojectbootcamp.com/
 
 Follwoing are the chapters which I have learnt and used different Gen AI tools to build examples as part of GenAI Bootcamp-
 
-- [GenAI Architecture]([url](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/fe11f5a779c56a4497938701e0a6f306d5c4f190/genai-architecting))
+- [GenAI Architecture]([https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/fe11f5a779c56a4497938701e0a6f306d5c4f190/genai-architecting])
 - Sentance Constuctor - Prompt Preparation using ChatGPT, Claude, Meta AI.
 - Language Portal:
   - Backend in Go - Developed using Windsurf
