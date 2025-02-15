@@ -18,9 +18,9 @@ sudo apt install net-tools
 ifconfig
 ```
 #### On Macbook
-'''
+```
 curl ifconfig.me
-'''
+```
 
 Or you can try this way `$(hostname -I | awk '{print $1}')`
 
@@ -68,3 +68,17 @@ A: The model will download into the container, and vanish when the container sto
 Q: For LLM service which can text-generation it suggets it will only work with TGI/vLLM and all you have to do is have it running. Does TGI and vLLM have a stardarized API or is there code to detect which one is running? Do we have to really use Xeon or Guadi processor?
 
 vLLM, TGI (Text Generation Inference), and Ollama all offer APIs with OpenAI compatibility, so in theory they should be interchangable.
+
+# Output
+
+Image pulled for Ollama-
+
+![image](https://github.com/user-attachments/assets/40711e1e-fe71-45e2-a108-8218a243dbd3)
+
+Ollama Container running -
+![image](https://github.com/user-attachments/assets/26053e5d-e9dc-4fe4-9556-677611395c39)
+
+Response from Ollama running in Docker-
+
+![image](https://github.com/user-attachments/assets/fd317abb-708a-4919-a7ff-96bc9b3138a0)
+
