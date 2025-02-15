@@ -1,7 +1,7 @@
-About-
+# About 
 This application is part of GenAI Bootcamp. This application is known as Vocab-Builder.
 
-Development & Modifications-
+## Technicial Uncertainity
 Application is developed into Next.JS using Replit (https://replit.com/). 
 Replit provide the ability to develop Web Apps and websites using AI.
 
