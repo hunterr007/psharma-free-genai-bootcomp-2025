@@ -1,24 +1,10 @@
-Welcome to the NextJS 13 base template bootstrapped using the `create-next-app`. This template supports TypeScript, but you can use normal JavaScript as well.
+About-
+This application is part of GenAI Bootcamp. This application is known as Vocab-Builder.
 
-## Getting Started
+Development & Modifications-
+Application is developed into Next.JS using Replit (https://replit.com/). 
+Replit provide the ability to develop Web Apps and websites using AI.
 
-Hit the run button to start the development server.
+Once application is developed, we have used Microsoft Copilot to modify the UI Styling and building Reset Button.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) allow you to create custom request handlers for a given route using the Web Request and Response APIs.
-
-The `app/api` directory is mapped to `/api/*`. Folders in this directory with files named `route.ts` are treated as [Route handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) instead of pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Productionizing your Next App
-
-To make your next App run smoothly in production make sure to deploy your project with [Repl Deployments](https://docs.replit.com/hosting/deployments/about-deployments)!
-
-You can also produce a production build by running `npm run build` and [changing the run command](https://docs.replit.com/programming-ide/configuring-repl#run) to `npm run start`.
+![image](https://github.com/user-attachments/assets/30b88438-a36c-4726-9192-0857a55f97b3)
