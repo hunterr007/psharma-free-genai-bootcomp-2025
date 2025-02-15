@@ -15,6 +15,6 @@ As part of GenAI bootcomp, following applications have been build using differen
   - Backend in Python - Developed using Microsoft Copilot
 - [Vocab builder](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/216220dced12d61f4ae5b5d95a591de1fb1bffb1/vocab-builder) - Developed using Replit and Microsoft Copilot
 - [OPEA](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/216220dced12d61f4ae5b5d95a591de1fb1bffb1/opea-comps) - Framework and OPEA-COMPS implementation to run Ollama in Docker container.
-  https://opea.dev/
-  https://github.com/opea-project
+  - OPEA Website- https://opea.dev/
+  - OPEA Github Repo - https://github.com/opea-project
 
