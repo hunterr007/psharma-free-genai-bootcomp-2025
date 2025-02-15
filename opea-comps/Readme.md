@@ -17,6 +17,10 @@ Get your IP address
 sudo apt install net-tools
 ifconfig
 ```
+#### On Macbook
+'''
+curl ifconfig.me
+'''
 
 Or you can try this way `$(hostname -I | awk '{print $1}')`
 
@@ -40,7 +44,7 @@ curl http://localhost:9000/api/pull -d '{
 
 curl http://localhost:9000/api/generate -d '{
   "model": "llama3.2:1b",
-  "prompt": "Why is the sky blue?"
+  "prompt": "Tell me about Mount Everest?"
 }'
 
 # Technical Uncertainty

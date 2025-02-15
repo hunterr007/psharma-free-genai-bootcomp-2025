@@ -11,7 +11,6 @@ export default function VocabularyImporter() {
   const [result, setResult] = useState("")
   const [isLoading, setIsLoading] = useState(false)
 
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
@@ -38,16 +37,18 @@ export default function VocabularyImporter() {
   };
 
   return (
-    <div className="space-y-4">
-      <form onSubmit={handleSubmit}>
+    <div className="container">
+      <h1 className="left-align">Vocabulary Language Importer</h1>
+      <form onSubmit={handleSubmit} className="space-y-4">
         <Input
           type="text"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
           placeholder="Enter thematic category"
           required
+          className="input-small"
         />
-        <div className="flex space-x-4">
+        <div className="mt-4 button-container"> {/* Add margin-top here */}
           <Button type="submit" disabled={isLoading}>
             {isLoading ? "Generating..." : "Generate Vocabulary"}
           </Button>
@@ -56,13 +57,12 @@ export default function VocabularyImporter() {
           </Button>
         </div>
       </form>
-      {result !== "" && (
+      {result && (
         <div className="space-y-4">
           <Textarea value={result} readOnly />
           <Button onClick={handleCopy}>Copy to Clipboard</Button>
         </div>
       )}
-
     </div>
   )
 }

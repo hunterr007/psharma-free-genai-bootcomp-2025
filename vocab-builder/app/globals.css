@@ -92,25 +92,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Change this from center to flex-start */
-    min-height: 100vh;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 20px 0; /* Add some padding to the top and bottom */
+    padding: 0;
   }
-  
+
   .container {
-    text-align: left;
-    background-color: #f1eded;
-    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
+    width: 80%;
+    max-width: 600px;
   }
-  
 
   .input-small {
     width: 50%; /* Adjust the width as needed */
@@ -121,10 +117,12 @@ body {
   .button-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 10px; /* Space between buttons */
   }
-  
+
+  .left-align {
+    text-align: left;
+  }
 }
 
 @layer components {
@@ -137,7 +135,6 @@ body {
     cursor: pointer;
     margin-top: 10px;
   }
-
 
   button:disabled {
     background-color: #cccccc;
