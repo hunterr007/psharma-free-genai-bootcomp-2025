@@ -7,11 +7,11 @@ https://genai.cloudprojectbootcamp.com/
 
 Follwoing are the chapters which I have learnt and used different Gen AI tools to build examples as part of GenAI Bootcamp-
 
-- [GenAI Architecture]([https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/fe11f5a779c56a4497938701e0a6f306d5c4f190/genai-architecting])
-- Sentance Constuctor - Prompt Preparation using ChatGPT, Claude, Meta AI.
-- Language Portal:
+- [GenAI Architecture](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/fe11f5a779c56a4497938701e0a6f306d5c4f190/genai-architecting)
+- [Sentance Constuctor]() - Prompt Preparation using ChatGPT, Claude, Meta AI.
+- [Language Portal](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/216220dced12d61f4ae5b5d95a591de1fb1bffb1/lang-portal):
   - Backend in Go - Developed using Windsurf
   - Backend in Python - Developed using Microsoft Copilot
-- Vocab builder - Developed using Replit and Microsoft Copilot
-- OPEA - Framework and OPEA-COMPS implementation to run Ollama in Docker container.
+- [Vocab builder](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/216220dced12d61f4ae5b5d95a591de1fb1bffb1/vocab-builder) - Developed using Replit and Microsoft Copilot
+- [OPEA](https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/tree/216220dced12d61f4ae5b5d95a591de1fb1bffb1/opea-comps) - Framework and OPEA-COMPS implementation to run Ollama in Docker container.
 
