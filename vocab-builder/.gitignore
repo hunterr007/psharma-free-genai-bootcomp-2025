@@ -21,3 +21,6 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
+
+#openapi keys
+.env
