@@ -64,6 +64,7 @@ class ExampleService:
     async def handle_request(self, request: ChatCompletionRequest) -> ChatCompletionResponse:
         try:
             # Format the request for Ollama
+            '''
             ollama_request = {
                 "model": request.model or "llama3.2:1b",  # or whatever default model you're using
                 "messages": [
@@ -73,6 +74,12 @@ class ExampleService:
                     }
                 ],
                 "stream": False  # disable streaming for now
+            }
+            '''
+            llama_request = {
+                "model": request.model or "llama3.2:1b",
+                "messages": request.messages,
+                "stream": False
             }
             
             # Schedule the request through the orchestrator
