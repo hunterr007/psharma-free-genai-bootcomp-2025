@@ -34,19 +34,3 @@ ASL Recognition Model (PyTorch, torchvision, mediapipe)
     - Determine the confidence of the prediction.
 
 It is learnt that training data quality is very important in order to correctly identify the characters. 
-
-
-## How to run frontend
-
-```sh
-streamlit run frontend/home.py
-```
-
-## How to run backend
-
-```sh
-cd backend
-pip install -r requirements.txt
-cd ..
-python backend/main.py
-```
