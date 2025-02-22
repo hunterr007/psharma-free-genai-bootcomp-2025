@@ -17,6 +17,8 @@ Uses Mediapipe and OpenCV to detect hand landmarks and recognize ASL signs. Foll
     - numpy: Mathematical operations and array handling
     - cv2 (OpenCV): Image processing and computer vision tasks
 
+![image](https://github.com/user-attachments/assets/4c885189-fdc2-405c-857c-93c2a558ab86)
+
 # ASL Recognition - Machine Learning
 
 Uses Streamlit to create an interactive web interface, image processing libraries to prepare the input images, and a PyTorch-based deep learning model in the backend to perform the ASL recognition. 
@@ -30,6 +32,9 @@ ASL Recognition Model (PyTorch, torchvision, mediapipe)
     - Preprocess images to be compatible with the model.
     - Use the model to predict the ASL sign in the image.
     - Determine the confidence of the prediction.
+
+It is learnt that training data quality is very important in order to correctly identify the characters. 
+
 
 ## How to run frontend
 
