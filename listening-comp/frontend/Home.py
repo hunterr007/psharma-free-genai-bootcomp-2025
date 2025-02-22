@@ -18,7 +18,7 @@ def main():
     - Get real-time recognition of letters with Mediapiple and OpenCV
     - Practice and improve your signing skills
                 
-    #### 2. ASL (American Sign Language) Recognition - Machine Learning 🤟
+    #### 2. ASL (American Sign Language) Recognition - Machine Learning 
     - Upload images of ASL hand signs
     - Get real-time recognition of letters
     - Practice and improve your signing skills
