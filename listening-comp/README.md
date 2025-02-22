@@ -19,7 +19,7 @@ Uses Mediapipe and OpenCV to detect hand landmarks and recognize ASL signs. Foll
 
 ![image](https://github.com/user-attachments/assets/4c885189-fdc2-405c-857c-93c2a558ab86)
 
-Demo()[https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/blob/b46231008725701e394743de2132a4b0031eeb98/listening-comp/ASL%20Recongnition%202025-02-22%20at%206.44.11%E2%80%AFPM.mov]
+Demo([https://github.com/hunterr007/psharma-free-genai-bootcomp-2025/blob/b46231008725701e394743de2132a4b0031eeb98/listening-comp/ASL%20Recongnition%202025-02-22%20at%206.44.11%E2%80%AFPM.mov])
 
 # ASL Recognition - Machine Learning
 
