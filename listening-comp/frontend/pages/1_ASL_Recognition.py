@@ -9,7 +9,7 @@ BACKEND_URL = "http://localhost:8000"
 
 def start_asl_recognition():
     """Handles ASL image upload and recognition."""
-    st.title("ASL Sign Recognition")
+    st.title("ASL Sign Recognition - Rule Based")
     st.write("Upload an image of an ASL hand sign to recognize the letter.")
     
     # Initialize session state for prediction if it doesn't exist

@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 from asl_recognition import ASLRecognizer
+from asl_recognition_ml import ASLRecognitionML
 import cv2
 import numpy as np
 import boto3
 import json
 from botocore.exceptions import NoRegionError
 import logging
-from flask_cors import CORS  # Add CORS support
+from flask_cors import CORS, cross_origin  # Add CORS support
+from PIL import Image
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -15,6 +17,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 CORS(app)  # Enable CORS
 recognizer = ASLRecognizer()  # Initialize the ASL recognizer
+ml_recognizer = ASLRecognitionML()  # Initialize ML recognizer
 
 # Initialize Bedrock client
 try:
@@ -67,6 +70,26 @@ def predict_asl():
     except Exception as e:
         logger.error(f"Error processing image: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
+
+@app.route('/predict_asl_ml', methods=['POST'])
+@cross_origin()
+def predict_asl_ml():
+    try:
+        if 'image' not in request.files:
+            return jsonify({'error': 'No image provided'}), 400
+        
+        file = request.files['image']
+        
+        # Read and process image
+        image = Image.open(file)
+        
+        # Get prediction
+        prediction = ml_recognizer.predict_sign(image)
+        
+        return jsonify(prediction)
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route("/bedrock_query", methods=["POST"])
 def bedrock_query():
