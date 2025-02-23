@@ -38,14 +38,14 @@ ASL Recognition Model (PyTorch, torchvision, mediapipe)
 It is learnt that training data quality is very important in order to correctly identify the characters. 
 
 # How to start front end
-'''
+```sh
 streamlit run frontend/home.py
-'''
+```
 
 # How to start back end
-'''
+```sh
 cd backend
 pip install -r requirements.txt
 cd ..
 python backend/home.py
-'''
+```
