@@ -36,7 +36,9 @@ ASL Recognition Model (PyTorch, torchvision, mediapipe)
     - Use the model to predict the ASL sign in the image.
     - Determine the confidence of the prediction.
 
-***It is learnt that training data quality is very important in order to correctly identify the characters.***
+***It is learnt that*** 
+- Training data quality is very important in order to correctly identify the characters.*** 
+- In our test we have found model inconsistent. in many testing attempte times I noticed that model is not able to identify the sign correctly.
 
 ![image](https://github.com/user-attachments/assets/e11ba04d-5375-4d07-828f-2485626eea86)
 
