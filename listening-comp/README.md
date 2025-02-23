@@ -47,5 +47,5 @@ streamlit run frontend/home.py
 cd backend
 pip install -r requirements.txt
 cd ..
-python backend/home.py
+python backend/main.py
 ```
