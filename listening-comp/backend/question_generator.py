@@ -1,7 +1,7 @@
 import boto3
 import json
 from typing import Dict, List, Optional
-from backend.vector_store import QuestionVectorStore
+from vector_store import QuestionVectorStore
 
 class QuestionGenerator:
     def __init__(self):
@@ -186,3 +186,10 @@ class QuestionGenerator:
                 "explanation": "Unable to generate detailed feedback. Please try again.",
                 "correct_answer": 1  # Default to first option
             }
+
+# def generate_questions(text: str) -> List[Dict]:
+#     """Generate questions from the given text"""
+#     question_generator = QuestionGenerator()
+#     # TODO: Implement actual question generation logic
+#     # For now, return a placeholder
+#     return [{"question": "What is the main topic?", "options": ["Option 1", "Option 2", "Option 3", "Option 4"]}]

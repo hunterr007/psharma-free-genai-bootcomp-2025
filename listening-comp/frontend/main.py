@@ -8,10 +8,12 @@ import numpy as np
 import requests  # To send images to the backend
 from PIL import Image
 import io
+import subprocess
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from backend.question_generator import QuestionGenerator
 from backend.audio_generator import AudioGenerator
+from frontend import home
 
 # Page config
 st.set_page_config(
@@ -327,8 +329,29 @@ def start_asl_recognition():
             st.rerun()
 
 def main():
-    st.title("JLPT Listening Practice")
-    render_interactive_stage()
+    st.set_page_config(
+        page_title="Language Learning Assistant",
+        page_icon="🌏",
+        layout="wide"
+    )
+
+    # Sidebar navigation
+    st.sidebar.title("Navigation")
+    options = ["Home", "ASL Recognition", "ASL Recognition with ML", "JLPT Listening Practice", "YouTube Transcriber"]
+    selected_option = st.sidebar.selectbox("Choose an option:", options)
+    st.session_state["selected_option"] = selected_option
+
+    if selected_option == "Home":
+        home.main()
+    elif selected_option == "ASL Recognition":
+        start_asl_recognition() # Replace with your ASL Recognition function
+    elif selected_option == "ASL Recognition with ML":
+        #start_asl_recognition_ml() # Replace with your ASL Recognition with ML function
+        st.write("ASL Recognition with ML content here")
+    elif selected_option == "JLPT Listening Practice":
+        render_interactive_stage() # Replace with your JLPT Listening Practice function
+    elif selected_option == "YouTube Transcriber":
+        home.render_youtube_transcriber()
 
 if __name__ == "__main__":
     main()

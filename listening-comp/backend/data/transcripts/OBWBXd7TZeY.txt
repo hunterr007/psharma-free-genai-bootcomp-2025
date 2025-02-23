@@ -1,0 +1,483 @@
+what's up guys my name is Brandon and
+today Apple finally released iOS 18.4
+beta 1 to register developers and soon
+to public beta testers now along with
+this release we also got the first beta
+for iPad OS 18.4 watch OS 11.4 Mac OS
+Sequoia 15.4 TV OS and homod Os 18.4
+Vision OS 2.4 and for older Macs we got
+Mac OS
+14.7.99 .5 and those were both the RC
+release so a very rare Friday Beta
+release roll out from Apple but anyways
+in this video we're talking all about
+iOS and iPad OS 18.4 beta 1 starting off
+with the size you can see it came in at
+a massive 7.72 GB on my iPhone 16 Pro
+Max which was coming from IOS 18.3
+point1 and as far as the build number
+goes if we head into our settings and
+check out the new build number it is 22
+2 e
+5200s so we have an S at the end of the
+build number which indicates that we do
+have quite a few betas to go before the
+final release which we talk about that
+final release near the end of this video
+and if we go down to the modem firmware
+that is now
+13.02 for the iPhone 16 series all right
+so now what's new here in iOS 18.4 beta
+1 and the first thing has to do with the
+control center so if we swipe down to go
+into our Control Center and we tap on
+the plus up in the top left and we go to
+add a control and we scroll down the
+very first section here is new with iOS
+18.4 and this is called ambient music so
+what this does is you can add these
+toggles to the control center to play
+music based on that mood so if you're
+trying to sleep you can have sleep if
+you're trying to chill you can do chill
+same with productivity and wellbeing and
+when you add those this is what they
+look like right here in the control
+center if you go ahead and tap on let's
+just say sleeping for example it will
+start playing that music that matches
+the corresponding mood and if you go
+into the app switcher here you can see
+you know what is actually playing that
+music it's actually in apple music so
+we'll go and pause that but you can see
+you know it a spiritual Embrace and this
+is the appreciation for sleep but you'll
+notice that if you go into the Apple
+music application it does not show that
+it's playing right there which to me
+indicates that this does not require an
+apple music account and it ALS Al is not
+going to mess with your you know Apple
+music algorithm which is nice let go
+ahead and remove this one so we can get
+them all up there so yeah that is what
+those look like this is really cool and
+it's a kind of a better version of
+background sounds in my opinion it's
+kind of like a feature piggybacking off
+of that obviously a different use case
+but that's what it reminds me of so
+that's the first thing that's new here
+in 18.4 beta 1 and we also have
+something new with the sliders right
+here for our volume and our brightness
+so you'll notice that if you go down
+that turns white now before with iOS
+18.3 point1 if you went down to 0% on
+the volume or on the brightness it would
+stay that blue color and for brightness
+it would stay that yellow color but now
+it turns white for both the volume and
+for the brightness and you'll also
+notice for our cellular toggle right
+here it will actually change based on
+your signal so right now it shows the
+full amount of bars but that will change
+based on what your actual signal is so
+you can see it went down right there now
+it only shows three bars and that shows
+shows up in the little mini
+representation of the widget platter
+right there as well so before that just
+showed full bars no matter what now it
+corresponds to your actual you know
+cellular connectivity and here's a
+change that a lot of people are going to
+miss or just simply Overlook but it's
+something I noticed pretty much right
+away because it is a quality of life
+change so if you go down to a section in
+the control center say you want to add
+something from the connectivity platter
+we'll just go ahead and add cellular
+data so it takes us right there you know
+to where it added that in our control
+center but when we go back to add a
+control you can see that before we'd
+have to go back to the top and then we'd
+have to go all the way back down to the
+bottom to where we just were if we want
+to add more connectivity toggles but
+with 18.4 if you tap on ADD control it
+stays where you were last so if you were
+in a section or if you search for
+something or if you're you know halfway
+down scrolling it will take you right
+back to where you were that way you
+don't have to start all the way at the
+top of control center again this is a
+small change like I said but it's
+something very handy and again this does
+also work when you search for something
+so if I search search for ambient like
+ambient music right here and I add one
+and then I go back to add control it
+remembers my search query and it you
+know shows me where I left off really
+nice now after I installed iOS 18.4 beta
+1 I had to install the new Apple
+intelligence models and you'll see it
+shows right here downloading support for
+Apple intelligence connect iPhone to
+Wi-Fi and power while models are
+downloading and this lasted quite a bit
+of time it took a lot longer to download
+than I thought so if you're seeing that
+be sure to connect your device to power
+so make sure it's charging while on
+Wi-Fi that's going to get you through
+that download process a lot faster but
+it did take quite a bit this time around
+thought I should mention that now also
+Apple intelligence is available in the
+EU starting with iOS
+18.4 so this is a big change because of
+course EU users have not had Apple
+intelligence yet so it's now going to be
+available in the EU starting with beta 1
+of 18.4 also it's coming to more
+languages if you go into your settings
+here for Apple intelligence in Siri
+we're now going to have apple
+intelligence support for French German
+Italian Portuguese for Brazil Spanish
+Japanese Korean and Chinese as well as
+localized English for Singapore and for
+India so if you've been in another
+country besides the supported countries
+before this is going to be a big update
+for you it's especially going to be a
+big update for those in the EU since
+they were the main ones who were left
+out of apple intell Ence as a whole now
+speaking of Apple intelligence we have
+another big change that we've been
+waiting on ever since iOS 18 beta 1 came
+out ever since it was first introduced
+at WWDC and that is if we go into our
+settings and go to Notifications right
+down here we have a new section for
+Apple intelligence this was not there
+before and you'll notice that not only
+do we have summarized notifications
+which is not new but we now have
+prioritize notifications so this is the
+new feature that we've been waiting on
+for quite some time and this allows
+Apple intelligence to show you
+notifications that may be important in a
+separate section on the lock screen so
+you can catch up on what you may have
+missed so I've tried getting this to
+work it does not work for me I have a
+ton of notifications here but it's not
+categorizing them just yet for me it
+probably just has to learn my
+notifications and everything but this is
+off by default so you might want to go
+in here and enable this if you have
+apple intelligence turned on that way
+you can have your priority notifications
+show up above all the other you know
+perhaps irrelevant notifications that
+you might have on the lock screen
+alongside the important ones I could
+already Envision this becoming one of my
+favorite Apple intelligence features
+because it's something that's going to
+make a difference you know a fundamental
+difference to how I use my phone on a
+day-to-day basis it's going to really
+help me see those important
+notifications right away from my lock
+screen so I'll report back I'll probably
+show you guys this in action in apple
+weekly tomorrow or at some point in the
+future once I get it working properly on
+my lock screen we also have a change in
+in the image playground application so
+if you have image playground and you tap
+on the plus right here to choose the
+style for your you know image playground
+image here we now have the option to
+choose sketch so before it was just
+animation and illustration but now you
+can create a sketch of whatever you add
+into here and they look quite
+interesting so you can see it kind of
+looks like a a book which I guess is the
+point of that so this is the combination
+that led to this sketch right there so
+pretty cool to have more options in here
+it is quite buggy an 18.4 want I have to
+say a lot more buggy than 18.3 so just
+keep that in mind in the messages
+application if you go into the Emoji
+picker and you look right here to the
+right of the search field to describe an
+emoji we now have a change to the Gen
+emoji button so before it just showed
+the glyph icon and that was it now it
+has the full text along with a slightly
+larger version of that glyph icon so
+it's more obvious what this actually
+does since a lot of people were kind of
+confused and kind of just missed that
+that button was even there before now
+for those wondering about visual
+Intelligence on the iPhone 15 series we
+did hear that it will be coming to the
+iPhone 15 series however it is not
+enabled just yet with iOS 18.4 beta 1 so
+I did test this on my iPhone 15 Pro Max
+and I do not have visual intelligence so
+you know we will see that in the control
+center so it will be a control center
+toggle which of course you can map to
+the action button as well since before
+we did need the camera control now it's
+just going to be a simple control center
+toggle but once again it is not there
+with beta 1 but I would expect that in
+the coming betas now as far as the big
+Seri changes coming in iOS 18.4 it does
+not appear that any of those are in iOS
+18.4 beta 1 so the onscreen awareness
+you know the personal context all of
+those things do not appear to be here in
+18.4 beta 1 you've always been able to
+do things like what's on my screen right
+now and when you say that it will just
+send it to chat GPT so that's nothing
+new but you know here in 18.4 beta 1 we
+do not have any of the features that
+were advertised which we do know that
+some of those are coming in iOS 18.5 but
+I would still expect some of those here
+in 18.4 maybe just in a future beta in
+the shortcuts application we have a new
+action for open conversation so this
+allows you to open a specific
+conversation in the messages application
+which is quite cool you can see you can
+select from the contacts right there so
+if I select this contact it will open
+that conversation when I run this
+shortcut so let's try this real quick
+let's press on play and you can see it
+opens up that specific conversation we
+also have a change to the Siri voice for
+Australia so if you go into your
+settings and go to your Apple
+intelligence and series settings and
+then you go into voice and then to
+Australian you can see that we now have
+four options whereas before in 18.3
+point1 we only had two options now
+there's also a new Standalone Apple
+Vision Pro application for the iPhone
+with iOS 18.4 so I did not get this to
+show up here in beta 1 one but it will
+be coming with IOS 18.4 as Apple put out
+a press release talking about Apple
+Intelligence coming to the Apple Vision
+Pro with vision OS 2.4 and there's also
+now an application for the iPhone to be
+able to queue applications and games to
+download to discover new spatial content
+and experiences easily find helpful tips
+and quickly access information about
+their device from their iPhone so it's
+going to be very similar to what we have
+with the watch application so if you
+have an Apple Watch you know how you
+have the application to manage your
+Apple watch I'm imagining that this
+application will work very similarly so
+it's going to be very similar to what we
+have with the watch for the 12 people
+out there with the Vision Pro like
+myself now here's a Cool Change in iOS
+18.4 and apple is pretty much
+sherlocking a lot of the recipe
+applications out there with this feature
+so if you go into the Apple News
+application and maybe not because this
+is a paid server so you do have to have
+Apple news Plus for this so maybe it
+won't Sherlock some of those
+applications but anyways if you go into
+Apple news plus here and you go into the
+food section we have news plus food and
+this is going to show you recipes that
+you can save and just follow along with
+so let me show you why this is cool so
+you can see the interface here is
+awesome it's very Apple likee it reminds
+me of you know the invites application
+and sports all their you know new design
+language for these applications so you
+can see what it looks like right there
+you can see the ingredients the
+instructions all of that so if we go
+here and go to cook you can see it shows
+us basically the directions in an apple
+music music lyrics like interface which
+is pretty cool and you can kind of see
+how that goes there and if you tap on
+the timer you can set a timer right from
+this section and you can go back and
+forth to the ingredients and the
+directions as well and swipe down to see
+more information about that and again
+you can save these for offline use as
+well and by the way you could also
+search for things as well and you can
+see different categories up here and
+there's also things like week night
+chicken dinners kind of just different
+categories of recipes as well popular
+categories bone all recipes you know you
+can see there's quite a bit in here and
+even the filter up here is pretty cool
+as well because you can filter by how
+long it takes to cook that item along
+with the dish type and more and for iPad
+OS 18.4 and Mac OS 15.4 we now have the
+new categorized mail UI so the UI here
+where you can change you know the
+category so between primary you know you
+have your transactions your updates and
+your promotions or you can see all mail
+this new interface here is finally
+available for the iPad and for the Mac
+with this latest update now taking a
+look at the release notes for iOS 18.4
+beta 1 there are quite a few in here so
+there are two known issues for Apple
+intelligence but both of those do have
+workarounds so they're not a big issue
+we do also have a resolved issue for
+notifications where scrolling through
+notifications might cause them to
+flicker or collapse momentarily I had
+that bug so that's good to see that
+fixed there is a known issue for Siri
+you know you can see right there for
+Siri suggestions might fail to complete
+successfully but if it go down a little
+bit further we do have something pretty
+important here that you might need to
+know about and that is for Wi-Fi calling
+so it says Wi-Fi calling might not work
+for US Cellular customers on iOS 18.4
+beta and the important part to know here
+is that the workaround is to basically
+downgrade to iOS 18.3 to enable Wi-Fi
+calling so if you're somebody who relies
+on Wi-Fi calling a lot you need to avoid
+iOS 18.4 beta 1 until this issue is
+fixed and then there's a known issue for
+writing tools when you tap on the
+replace button right there and you can
+see that there is a workaround for that
+as well but as far as overall
+performance here with iOS 18.4 beta 1
+it's honestly not great like especially
+in applications like image playground
+it's very buggy it's very slow I've also
+noticed some stutter in settings and
+pretty much all the Apple intelligence
+features are just a bit buggy here in
+18.4 beta 1 so just keep that in mind it
+is a first beta so that is kind of
+expected I should not need to say that
+but I still do want to mention that it's
+not going to be the most stable build
+I've not heard of anything catastrophic
+happening to people so I wouldn't say
+there's any critical bugs that I'm aware
+of but as far as this overall
+performance it does not feel quite as
+good as it did in 18.3 point1 which of
+course is expected that's a final
+release this is a beta after all now we
+did run a geekbench 6 test here the CPU
+and we scored a 3526 on the single core
+8767 on the multicore and you can see
+how that compares to the previous runs
+it actually scored higher than this
+build of 18.3 point1 which is quite
+interesting since it doesn't feel as
+good you know stability wise but that is
+good to see at least that the geek bench
+score is a bit higher and then as far as
+battery life goes battery life seems to
+be a little bit worse than it was before
+as well which again is expected from a
+beta 1 I'm on 86% I believe I started
+the video with over 90% so you know it
+went down quite a bit in that period of
+time a little bit more than what I'm
+used to so I would not expect battery
+life to be quite as good yet here with
+beta 1 which again is expected so let's
+talk about what to expect next because
+we have a very rare Friday release Here
+for iOS 18.4 beta 1 again I cannot
+remember the last time we had a Friday
+Beta release I know we've had public
+releases but beta releases on Friday are
+very rare so I would not expect to see
+iOS 18.4 beta 2 for at least two weeks
+so you know the week of the 3D is a
+possibility or even the week of the 10th
+of March is a possibility since we got
+this on a Friday so usually with the
+point4 updates between beta 1 and beta 2
+there's typically a 2 we Gap so I doubt
+that Apple's going to release another
+beta on a Friday so that tells me that
+we're either going to see it within two
+weeks or a little over two weeks if it's
+within two weeks it's going to be the
+week of March 3rd if it's a little over
+two weeks it's going to be the week of
+March 10th but again at this point it's
+hard to tell exactly which day that
+would be so it could be right there on
+March 11th so we'll have to wait and see
+and then after that of course we are
+going to see more betas and then the RC
+and then we will eventually see the
+final release of iOS 18.4 at some point
+in April I would imagine that that would
+come on the week of April 7th or the
+week of April 14th but of course we will
+have to wait and see how this beta cycle
+goes so that is everything I found so
+far in iOS 18.4 beta 1 I will continue
+digging through the software and finding
+new features and new changes no matter
+how small they are so be sure to keep it
+locked to the channel so you don't miss
+sell on any of those new features and
+changes in iOS 18.4 and of course future
+versions as well but if you guys enjoyed
+this video I would appreciate if you
+give it a thumbs up also again be sure
+to subscribe so you don't miss out on
+future iOS update videos just like this
+one but anyways guys thanks for watching
+and I'll see you soon

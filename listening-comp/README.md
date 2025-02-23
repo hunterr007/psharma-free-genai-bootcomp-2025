@@ -3,9 +3,10 @@ Application Listening Comp works with LLM and Deep Learning Models to support fo
 - ASL Recognition - Rule Based
 - ASL Recognition - Machine Learning
 - JLPT Listening Practice
+- YouTube Transcriber
 
 # JLPT Listening Practice
-
+clear
 Uses Amazon Bedrock to generate JLPT Listening Practice questions and Save them in JSON file.
 
 # ASL Recognition

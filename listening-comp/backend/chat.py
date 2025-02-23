@@ -38,6 +38,12 @@ class BedrockChat:
             st.error(f"Error generating response: {str(e)}")
             return None
 
+def process_chat_input(message: str) -> Optional[str]:
+    """Process chat input and return a response"""
+    bedrock_chat = BedrockChat()
+    response = bedrock_chat.generate_response(message)
+    return response
+
 
 if __name__ == "__main__":
     chat = BedrockChat()

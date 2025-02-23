@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from chat import process_chat_input
 from get_transcript import YouTubeTranscriptDownloader
-from question_generator import generate_questions
+from question_generator import QuestionGenerator
 
 app = Flask(__name__)
 CORS(app)
@@ -29,7 +29,8 @@ def process_audio():
 def create_questions():
     data = request.json
     text = data.get('text', '')
-    questions = generate_questions(text)
+    question_generator = QuestionGenerator()
+    questions = question_generator.generate_similar_question(1, text) # section_num = 1 and topic = text
     return jsonify({"questions": questions})
 
 if __name__ == '__main__':

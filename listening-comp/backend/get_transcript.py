@@ -1,5 +1,7 @@
+import sys  # Import the sys module
 from youtube_transcript_api import YouTubeTranscriptApi
 from typing import Optional, List, Dict
+import os
 
 
 class YouTubeTranscriptDownloader:
@@ -59,7 +61,11 @@ class YouTubeTranscriptDownloader:
         Returns:
             bool: True if successful, False otherwise
         """
-        filename = f"./transcripts/{filename}.txt"
+        # Ensure the directory exists
+        transcript_dir = "backend/data/transcripts"
+        os.makedirs(transcript_dir, exist_ok=True)
+        
+        filename = os.path.join(transcript_dir, f"{filename}.txt")
         
         try:
             with open(filename, 'w', encoding='utf-8') as f:
@@ -84,23 +90,18 @@ class YouTubeTranscriptDownloader:
         # For now, return a placeholder
         return "Audio file processed successfully. Transcript will be implemented soon."
 
-def main(video_url, print_transcript=False):
+def main(video_url):
     # Initialize downloader
     downloader = YouTubeTranscriptDownloader()
     
     # Get transcript
     transcript = downloader.get_transcript(video_url)
-    downloader.save_transcript(transcript, video_url)
+    # downloader.save_transcript(transcript, video_url)
     if transcript:
         # Save transcript
         video_id = downloader.extract_video_id(video_url)
         if downloader.save_transcript(transcript, video_id):
-            print(f"Transcript saved successfully to {video_id}.txt")
-            #Print transcript if True
-            if print_transcript:
-                # Print transcript
-                for entry in transcript:
-                    print(f"{entry['text']}")
+            print(f"Transcript saved successfully to backend/data/transcripts/{video_id}.txt")
         else:
             print("Failed to save transcript")
         
@@ -108,5 +109,8 @@ def main(video_url, print_transcript=False):
         print("Failed to get transcript")
 
 if __name__ == "__main__":
-    video_id = "https://www.youtube.com/watch?v=sY7L5cfCWno&list=PLkGU7DnOLgRMl-h4NxxrGbK-UdZHIXzKQ"  # Extract from URL: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    transcript = main(video_id, print_transcript=True)
+    if len(sys.argv) > 1:
+        video_url = sys.argv[1]
+        main(video_url)
+    else:
+        print("Please provide a YouTube URL as a command-line argument.")
